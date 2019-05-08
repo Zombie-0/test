@@ -1,6 +1,9 @@
 {
   "name": "maxfeltt-full",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.15.12"
+  },
   "private": true,
   "dependencies": {
     "concurrently": "^4.1.0",
@@ -18,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
